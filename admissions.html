@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - DIPS School Suranussi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Same header as index.html -->
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Join the DIPS School family</p>
+        </div>
+    </section>
+
+    <section class="admission-process">
+        <div class="container">
+            <h2>Admission Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Inquiry</h3>
+                    <p>Submit an online inquiry form or visit the school campus to learn about our programs and facilities.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>School Tour</h3>
+                    <p>Schedule a campus tour to see our facilities and meet our staff (optional but recommended).</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Application</h3>
+                    <p>Complete the application form and submit required documents along with the application fee.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Assessment</h3>
+                    <p>For certain grades, students may need to complete an assessment to determine placement.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Admission Decision</h3>
+                    <p>Receive notification of admission status within 7-10 working days after assessment.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <h3>Fee Payment</h3>
+                    <p>Complete the admission by paying the required fees within the stipulated time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="admission-requirements">
+        <div class="container">
+            <h2>Admission Requirements</h2>
+            <div class="requirements-grid">
+                <div class="requirement-card">
+                    <h3>Age Criteria</h3>
+                    <ul>
+                        <li><strong>Nursery:</strong> 3+ years as on 31st March</li>
+                        <li><strong>LKG:</strong> 4+ years as on 31st March</li>
+                        <li><strong>UKG:</strong> 5+ years as on 31st March</li>
+                        <li><strong>Class I:</strong> 6+ years as on 31st March</li>
+                        <li>Subsequent classes: Corresponding age</li>
+                    </ul>
+                </div>
+                <div class="requirement-card">
+                    <h3>Documents Required</h3>
+                    <ul>
+                        <li>Completed application form</li>
+                        <li>Birth certificate (original + copy)</li>
+                        <li>Passport size photographs (4 copies)</li>
+                        <li>Transfer Certificate (for Class II onwards)</li>
+                        <li>Report card of previous class</li>
+                        <li>Aadhaar card copy (if available)</li>
+                    </ul>
+                </div>
+                <div class="requirement-card">
+                    <h3>Fee Structure</h3>
+                    <ul>
+                        <li><strong>Registration Fee:</strong> ₹500 (non-refundable)</li>
+                        <li><strong>Admission Fee:</strong> ₹5,000 (one-time)</li>
+                        <li><strong>Annual Charges:</strong> ₹12,000 (per annum)</li>
+                        <li><strong>Monthly Tuition Fee:</strong> ₹2,500 - ₹4,000 (varies by class)</li>
+                        <li><strong>Transport Fee:</strong> ₹1,500 (if applicable)</li>
+                    </ul>
+                    <p><em>Note: Fees are subject to change. Current fee structure will be provided at the time of admission.</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="admission-form">
+        <div class="container">
+            <h2>Online Admission Form</h2>
+            <form id="admissionForm">
+                <div class="form-group">
+                    <label for="studentName">Student's Full Name*</label>
+                    <input type="text" id="studentName" name="studentName" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dob">Date of Birth*</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender*</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="class">Class Applying For*</label>
+                    <select id="class" name="class" required>
+                        <option value="">Select Class</option>
+                        <option value="nursery">Nursery</option>
+                        <option value="lkg">LKG</option>
+                        <option value="ukg">UKG</option>
+                        <option value="1">Class I</option>
+                        <!-- Add other classes as needed -->
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fatherName">Father's Name*</label>
+                    <input type="text" id="fatherName" name="fatherName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="motherName">Mother's Name*</label>
+                    <input type="text" id="motherName" name="motherName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number*</label>
+                    <input type="tel" id="contactNumber" name="contactNumber" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Residential Address*</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="previousSchool">Previous School (if applicable)</label>
+                    <input type="text" id="previousSchool" name="previousSchool">
+                </div>
+                
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I declare that the information provided is correct to the best of my knowledge.*</label>
+                </div>
+                
+                <button type="submit" class="btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">What is the admission criteria for DIPS School?</button>
+                <div class="faq-answer">
+                    <p>Admission is granted based on availability of seats, age criteria, and for certain classes, performance in the admission assessment. We also consider the student's previous academic record (if applicable) and their ability to benefit from our educational program.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">Is there any entrance test for admission?</button>
+                <div class="faq-answer">
+                    <p>For admission to Nursery and Kindergarten, there is no formal test but an interaction with the child and parents. For Class I onwards, we conduct a basic assessment to understand the child's proficiency in English, Mathematics, and general awareness appropriate for the class they are seeking admission to.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">What are the school timings?</button>
+                <div class="faq-answer">
+                    <p>The school timings are from 8:00 AM to 2:00 PM for all classes. There may be slight variations for Nursery and Kindergarten which will be communicated at the time of admission.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">Does the school provide transportation facilities?</button>
+                <div class="faq-answer">
+                    <p>Yes, we have a fleet of buses that cover most areas in and around Jalandhar. The transportation fee varies depending on the distance. Exact routes and pickup points will be provided after admission.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">What is the teacher-student ratio in the school?</button>
+                <div class="faq-answer">
+                    <p>We maintain a healthy teacher-student ratio of approximately 1:25 to ensure individual attention to each student. In primary classes, the ratio is even better at about 1:20.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Same footer as index.html -->
+    <script src="js/main.js"></script>
+    <script>
+        // FAQ functionality
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isOpen = answer.style.display === 'block';
+                
+                // Close all answers first
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.style.display = 'none';
+                    ans.previousElementSibling.classList.remove('active');
+                });
+                
+                // Open current if it was closed
+                if (!isOpen) {
+                    answer.style.display = 'block';
+                    question.classList.add('active');
+                }
+            });
+        });
+        
+        // Form submission
+        document.getElementById('admissionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your application! We will contact you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
